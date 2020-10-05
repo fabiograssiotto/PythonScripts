@@ -5,6 +5,10 @@ import time
 import datetime
 import sav_to_json as sv
 
+print()
+print("Breath of the Wild Playtime")
+print()
+
 save_dir = "C:/Games/The Legend of Zelda - Breath of the Wild/cemu/mlc01/usr/save/00050000/101c9500/user/80000001"
 
 # Using '*' pattern  
@@ -28,6 +32,6 @@ with open('game_data.sav.json') as json_file:
 
 playtime = data['PlayReport_PlayTime']
 
-print("Your current Botw playtime: " + str(datetime.timedelta(seconds=playtime)))
+print("Your current playtime: " + str(datetime.timedelta(seconds=playtime)))
+print()
 time.sleep(3)
-print("Bye")
