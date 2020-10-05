@@ -5,8 +5,7 @@ import time
 import datetime
 import sav_to_json as sv
 
-#save_dir = "C:/Games/The Legend of Zelda - Breath of the Wild/cemu/mlc01/usr/save/00050000/101c9500/user/80000001"
-save_dir = "C:/tmp"
+save_dir = "C:/Games/The Legend of Zelda - Breath of the Wild/cemu/mlc01/usr/save/00050000/101c9500/user/80000001"
 
 # Using '*' pattern  
 files = glob.glob(save_dir + '/**/game_data.sav', recursive=True) 
